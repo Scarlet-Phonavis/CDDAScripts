@@ -6,14 +6,12 @@ global exportlist
 exportlist = []
 os.makedirs("export", exist_ok=True)
 
-
-
 MUTATIONINPUT = sys.argv[1]
-EXPORTFILE = "export/" + sys.argv[2]
+EXPORTFOLDER = "export/" + sys.argv[2]
 
 
 READINPUT = open(MUTATIONINPUT, mode="r")
-WRITEOUTPUT = open(EXPORTFILE, mode='w+')
+WRITEOUTPUT = open(EXPORTFOLDER, mode='w+')
 
 
 JSONINPUT = json.load(READINPUT)
@@ -38,4 +36,6 @@ else:
     json.dump(exportlist, WRITEOUTPUT, indent = 4)
         
 
+WRITEOUTPUT.close()
+READINPUT.close()
 
