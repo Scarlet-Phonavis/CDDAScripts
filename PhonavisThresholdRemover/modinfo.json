@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "PhonavisThresholdRemover",
+    "name": "Vanilla Threshold Remover",
+    "authors": [ "Scarlet_Phonavis" ],
+    "maintainers": [ "Scarlet_Phonavis" ],
+    "description": "Removes mutation thresholds requirements from vanilla game, created via a script. Built off 2021-12-30-0133 Mutations.Json. Do note threshold mutations still exist, they are just no longer required.",
+    "category": "rebalance",
+    "dependencies": []
+  }
+]
