@@ -1,7 +1,7 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "PhonavisThresholdRemover",
+    "ident": "PhonavisThresholdRemoverVanilla",
     "name": "Vanilla Threshold Remover",
     "authors": [ "Scarlet_Phonavis" ],
     "maintainers": [ "Scarlet_Phonavis" ],
