@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "PhonavisCDDAPlusPlusThresholdRemover",
+    "name": "CDDAPlusPlus Threashold Remover",
+    "authors": [ "Scarlet_Phonavis" ],
+    "maintainers": [ "Scarlet_Phonavis" ],
+    "description": "Removes mutation thresholds requirements from CDDAPlusPlus, created via a script.",
+    "category": "rebalance",
+    "dependencies": ["Cata++"]
+  }
+]
